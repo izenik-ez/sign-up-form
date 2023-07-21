@@ -44,6 +44,9 @@ body{
     opacity: 0.5;
 }
 
+fieldset{
+    border: 0 none;
+}
 .form {
     width: 49%;
     height: 100%;
@@ -57,3 +60,23 @@ body{
 }
 
 
+form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+/*input,label{*/
+.form-input{
+    display: flex;   
+    flex-direction: column;
+}
+
+button{
+    margin-top: 50px;
+    padding: 10px;
+ 
+}
+
+button,a{
+  background-color: #596D48;
+}
