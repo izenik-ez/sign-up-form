@@ -4,9 +4,13 @@
 }
 
 body{
-    font-family: "Norse-Bold";
+    
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 .container::after{
     content: "";
     display: block;
@@ -18,9 +22,9 @@ body{
     position:relative;
     float: left;
     width: 40%;    
-    height: 100%;
-    
+    height: 100%;    
 }
+
 
 .title-background{
     width: 100%;
@@ -42,10 +46,25 @@ body{
     font-size: 90px;
     color: #fff;
     opacity: 0.5;
+    font-family: "Norse-Bold";
+}
+
+.photo-credit{
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    color: white;
+    opacity: 0.4;
+}
+.photo-credit > a{
+    text-decoration: none;
 }
 
 fieldset{
     border: 0 none;
+}
+legend{
+    margin-bottom: 30px;
 }
 .form {
     width: 49%;
@@ -77,6 +96,11 @@ button{
  
 }
 
-button,a{
+form>button{
   background-color: #596D48;
+}
+
+fieldset>p>a{
+    margin-left: 10px;
+    color: #596D48;
 }
